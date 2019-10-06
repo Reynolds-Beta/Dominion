@@ -1,0 +1,531 @@
+		 System Operator/Programmer Documentation
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      _________                   for
+     |_   ___  \
+       | |   \  \   ___  __  __  __  __   __  __  ___  __   __   ___
+       | |    \  \ / _ \|  \/  ||  ||  \ |  ||  |/ _ \|  \ |  | /  _>
+       | |    /  // / \ \||\/||  ||  ||\\ ||  ||/ / \ \||\\ ||  \ <
+      _| |___/  / \ \_/ /||  ||  ||  || \\||  ||\ \_/ /|| \\||  _> \
+     |_________/   \___/|__||__||__||__| \__||__|\___/|__| \__|<___/
+     ****************************************************************
+                      The Race for Galactic Domination
+
+                   By Apocalypse of StrangeMode Software
+                           Enhanced Version 1.60
+
+     Special thanks to The Catt, Mr. Bill, and the Pandemonium Playtesters
+
+
+     I. Running Dominions!
+     ~~~~~~~~~~~~~~~~~~~~~
+	 Dominions! runs in about 110k of RAM, about 43k of which is
+used by variable data, 51k for the actual program, and 16K for the stack.
+
+     To run Dominions!, just do two things...
+
+  FIRST...
+
+	 In DOS, run the program RESETDOM.BAT
+
+	 C>RESETDOM
+
+     The reset program will create the data files needed to run
+dominions.
+
+  SECOND, make sure you have all of the following
+files in the same path directory...
+
+     Program files
+     ~~~~~~~~~~~~~~
+     DOMINION.EXE
+
+
+     Data files (created by RESETDOM.BAT)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     EMPIRES.DOM
+     PLANETS.DOM
+     SQUADS.DOM
+     MESSAGES.DOM
+     DATE.DOM
+     LASTON.DOM
+     REGION1.DOM
+     REGION2.DOM
+     REGION3.DOM
+     REGION4.DOM
+     REGION5.DOM
+     SQUADPOS.DOM
+     TECH2.DOM
+     MDAYS.DOM
+
+     Text files
+     ~~~~~~~~~~
+     HELPCOUN.DOM
+     HELPEMPI.DOM
+     HELPNAVA.DOM
+     HELPPLAN.DOM
+     HELPMAIN.DOM
+     INSTRUCT.DOM
+     PICTURE.DOM
+
+  THIRD:  Dominions requires a WWIVbbs user information file called CHAIN.TXT.
+If you are not running WWIVbbs, then use of a door converter program is in
+order.  These programs are available on most BBSs, and vary in compatability
+towards differing BBSs.  Executing Dominion is simple.  Just enter the 
+following:
+
+     DOMINION.EXE [path and name]
+     
+  Where 'path and name' are the literal path and name of the WWIVbbs CHAIN.TXT 
+user information file.  For instance...
+
+     DOMINION.EXE C:\WWIVBBS\CHAIN.TXT
+
+
+     II. The RESETDOM program
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+     The Reset program (RESETDOM.bat) does the task of erasing and initializing
+the Dominions! data files.
+     There are two times when you would want to run the reset program.  The
+first is when you're initially setting up Dominions!  The second is when
+"the war" is over.  I highly suggest that you allow the game to run for a
+predetermined time (1-2 months suggested), and then reset the data files and
+start over.  Declare whoever had the most points at the time of the reset as
+the Winner, or Emperor or whatever title you think is deserved.  Then go
+post the final scores in message, to let everyone see how they did.
+      You don't have to do this, but it's probably wiser and more fun than
+letting the same war go on forever.  After a few months the numbers will
+become to large for the maintenence program to handle, and it will fail to
+run properly (it will return a Run-Time error 91, I believe).
+     Also, I suggest that you place the "REGION_".DOM files in the download
+area so that your game players can have easy and quick access to them.
+
+
+     III. The MAINTENENCE program
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     The Maintenence program (MAINTAIN.DOM) updates all the players and
+their squadrons when the first person plays the game each day.  It shouldn't
+take it too long to run, no more than maybe a minute, maximum.
+     If you take the BBS down for the day for repairs, etc., don't worry,
+the maintenence program won't run for the day because no one played it.
+If no one plays for two days, two day's worth of maintenence will not be done,
+only one day's worth.
+
+
+     IV. Dominions! Files
+     ~~~~~~~~~~~~~~~~~~~~
+     DOM160.ZIP (The Doctor's version 1.60) was PKZIPed with PKZIP v1.10.
+     The following files are included in the Zip file...
+
+     Dominion.Exe       Main program
+     Resetdom.Exe       Program to run to reset Dominion
+     Instruct.Dom       Intructions text file
+     HelpMain.Dom       Main menu help file
+     HelpCoun.Dom       Counterintelligence menu help file
+     HelpEmpi.Dom       Empire menu help file
+     HelpNava.Dom       Naval menu help file
+     HelpPlan.Dom       Planet menu help file
+     Picture.Dom        Opening screen text file
+     Sysopdoc.Dom       This text file
+
+
+     V. Sharing Dominions!
+     ~~~~~~~~~~~~~~~~~~~~~
+     You are free to copy and distrubite Dominions and it's subprograms
+as long as the following conditions are met...
+
+     1) No fee or purchase cost is charged.
+     2) Any modifications made are noted in the Sysopdoc.Dom file by the
+        person making the modifications with the date and nature of the
+        modifications.
+     3) All programs listed in Section IV are included in the archive.
+
+
+     VI. Legal Stuff
+     ~~~~~~~~~~~~~~~
+     The author of Dominions! assumes no responsibilty for any failure of
+the program (or subprograms) to perform in the indicated or expressed way,
+and/or any damage caused by the failure of the program.  Use Dominons!
+at your own risk!
+
+     VI(a). Legal Stuff (revisited)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Tarl Cabot assumes no resposibily for any failure of the program
+(or anything else affiliated with Dominions!) to perform as expected,
+indicated, or any other fashion.  Basically the same stand that Apoc has
+taken...but you shouldn't have any problems with it at all.
+
+      VII. Other Previously Unmentioned Stuff (circa v1.40 and below)
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     This version has fixed the infamous "9999 Frigates" bug.
+
+     Earlier versions of Dominions! were written on an IBM XT clone with
+1 meg RAM, a 20 megabyte hard disk, and only a measly 8 mhz operating speed.
+This version was done on an real IBM XT with 1 meg RAM and 12 mhz.
+All versions were written in Turbo Pascal 3.0.
+
+     Dominions! 2.00 should be out in a couple months, depending on how much
+else my life requires me to do.
+
+     There is a special account set-up specifically for downloading and
+feedback concerning Dominions! on Pandemonium (919) 768-6354.  It is
+
+     StrangeMode, User # 12
+     Password : STRANGE
+     Phone # : 9999
+
+     This account will give you access to the Dominions! download area
+and to send Feedback (which will be forwarded to me by The Catt).  This
+will allow you to get the most recent version of Dominions! without
+having to have a personal account.
+
+     If you have any suggestions, comments, or criticisms of Dominions!,
+please leave a message for me anyway you can.  The home board of Dominions!
+(Pandemonium) does have WWIVnet connections for mail and messages.
+
+     In addition, there is now a WWIVnet sub devoted to Dominions! support
+for both Sysops and players.  It is net sub 9959.  Send EMail to 1 @ 9951 to
+subscribe.
+
+If all else fails, call
+
+     Pandemonium (WWIVnet 9951)
+     (919) 768-6354
+     Winston-Salem, NC
+
+     and leave your comments in the validation message or leave mail to
+
+     #15, Apocalyse
+
+     Thanks, and I hope you enjoy Dominions!
+
+     =>Apocalypse<= (aka Chris Haisty)
+     WWIVnet ID 15 @ 9951
+     GEnie mail address C.HAISTY
+     CompuServe ID 72220,3300
+
+     P.S. Hi Rowen! (AE Forever)
+
+Notes for v1.60 Enhanced.  February 1991.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	This version is built upon the v1.50 of Dominions using Turbo Pascal 
+5.0.  The copy I had did not employ radars as in a previous version (mod by 
+SKA).  The COMMON.PAS has been altered then re-altered to reflect changes in my 
+own BBS software, and now runs from a WWIV based (CHAIN.TXT) environment once 
+again (with a few changes, additions, etc.).  As I have not seen (through no 
+fault of the original authors) a new version of Dominion for some time, I have 
+taken it upon myself to enhance its playability.  Those listed below represent 
+only a few of my ideas for this program.
+
+	Radars are once again added to make more of a challenge for the players.
+These radars, however, operate in a much different manner than the originals
+by (I believe) SKA.  While I opted to use some of his original code, the
+radars now cover an AREA in space, rather than just noting incomming ships.
+This adds much to realism, as ships passing close enough to a so equipped
+planet will be detected.
+
+	Of course, with every measure there is a counter measure, so for radars
+there has to be STEALTH.  Stealth technology can be fit to any squadron, if
+a player has enough industry units left, in the MOVE SQUADRON command of the
+Navy Menu.  The cost (in Industry Units) is equal to half that of the cost of
+building the squadron (rounded up).
+
+	To add some realism (What!  More?), the populations of each owned planet
+now takes part in the game.  When a ship is built, a skeleton crew from the
+planet built on is removed and placed in the ship.  When the ship is called
+for interplanetary travel, the rest of the crew is put aboard.  Below is a
+list of the amounts used for each ship...
+
+Ship Type	Orbiting/Defending		Traveling
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Frigate               13                           50
+Destroyer             38                           150
+Cruiser               113                          450
+Battleship            338                          1350
+Dreadnought           1013                         4050
+Super Dreadnought     3038                         12150
+
+	...As you can see, a skeleton crew is 25% of the normal crew.  Also,
+when a ship reaches its destination, (after all fighting, if any) 75% of
+the people remaining will go on leave to the planet below, again leaving a
+skeleton crew.  This offers a unique way of transferring a large amount of
+people from one planet to another.
+
+	Also added, is a method of redirecting squadrons to different Planetary
+destination.  The Redirect_Squadron procedure in OVERLAY2.DOM allows a
+player to order his squadrons to change destination and speed (from maximum
+speed to stopping).  The file SQUADPOS.DOM handles all of the required data.
+
+	Next, I have adjusted the "cost" per .1 technology level to reflect an
+increase as an empire becomes larger and larger.  This simulates costs to
+distribute the "new" technology throughout an empire, to keep ALL the planets
+even.
+
+	Further changes have come about:  There is now a new method of 
+traveling between your owned planets... Warpgates!  These cost a player 
+technology units to build and sustain, but can greatly change the strategies 
+people have grown accustomed to.  Even more mods include the ability to 
+de-industrialize a planet (to a minimum of 1.0) in cases of extreme emergency, 
+and a way to give a planetary system (or Industry/Technology Units) to another
+allied empire.  Oh!  You also have the ability to trade comodities with another 
+empire.  Things like Industry Units, Technology Units, and entire planetary 
+systems are traded using the new (E) command in the Empire Menu.  Another 
+addition is a circular scan, using an installed radar, of a planet's 
+surroundings:  Gives information (just a bit) on nearby planets and makes 
+radars much more useful.
+
+	What?? More changes?  Yeah, there is now a means for planets to go on 
+strike or completely seceed from an empire entirely.  The former is based upon 
+the ratios between the industry level of a planet and an empire's technology 
+level (don't want to work your people too hard under primitive conditions), 
+while the later is mostly based upon a sort of morality type Alignment system 
+for each planet.  The closer a planet is to your empire's alignment (much like 
+the alignment in D&D) the easier it is to hold onto.  Finally, I've rewritten 
+most of the original code (the TP5.0 code of v1.50) to be faster, look nicer 
+while running, etc, etc.  I hope noone minds if I don't give the source code 
+away, as I believe this will keep trouble to a minimum. 
+
+
+--The Doctor and
+  the Master....on the //\/\aize Bulletin Board.
+
+ VIII. Notes for v1.50
+ ~~~~~~~~~~~~~~~~~~~~~
+     This is, as near as I can tell, completely free of bug and programming
+oversights.  When I converted to Turbo Pascal v5.0, a small problem cropped
+up in the INCREASE TECHNOLOGY and INCREASE INDUSTRY routines from the Empire
+and Planet management routines, respectively.  It had to do with reals and
+the IF/THEN routines.  If you recall (or, after reading further you see) there
+was a similar problem with the TECH levels and ship building.  I merely
+dropped the check constant by a decimal place and it works fine now.  Also,
+I made a small oversight with the new abortable listings for the listings of
+planets, fleets in flight, navy status, and zoom view for the planets, that
+has been corrected now.  I hope that you enjoy this enhnaced, and bug free
+release of Dominions!.
+
+     I'm sure you will notice that this is now v1.50, and the next section
+in this file covers v2.00TC.  Well, I was unable to contact Apocalypse to
+discuss version numbers and his current progress on the "official" v2.00, so
+I chose that version number on my own initiative.  I've since been in contact
+with him, and this is now the "official" v1.50 release, hence the new number.
+It is the same code as available in the unofficial v2.00TC, so no need to be
+confused any further.  I'm leaving the reference to 2.00TC here to cover
+what was actually released.
+
+     - Tarl
+
+     VIII(a). Notes for v2.00TC
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Tarl here again...  I've made the optimistic decision to radically alter
+the version number for this release, as you will see when you finish reading
+this document, the last release was v1.41B (at least the last release from me)
+and this is now v2.00TC.  The main reason for this is that this version is a
+conversion to operation under Turbo Pascal v5.x and will no longer run under
+the older v3.01.  Apocalypse was working on a TP5 version, and since I've not
+had any contact with him for several months, I'm not sure how far he's been
+able to proceed.  Last report was that he had the conversion done, but the size
+was a factor that he had to deal with...in this version, there is no problem
+with the size of the program, the data it uses, or anything else that I can
+find.  It works fine under WWIV v4.10 and I would assume that it will work fine
+for any WWIV system prior to v4.10 as well.
+
+     Enough of that and onto what has been done to this version.  It's
+converted to TP5, this much you already know, and since TP5 has this very
+efficient USES command and Units, the COMMON.PAS file has been made into a unit
+so that only the routines that are needed by Dominions! are loaded into the
+program.  This is a major savings in memory!  Another thing that has been done
+to enhance the program, is that color has been added to many areas.  Also,
+there were old referrences to the KEYPRESSED function of TP.  In TP5 that
+function has become part of the CRT unit, and from my experience any program
+that uses the CRT unit will NOT work with WWIV, so I've completely removed all
+referrences to that function.  They didn't work for remote users anyway...  I
+have installed the PRINTACR routine in places where the KEYPRESSED function was
+used so that remote users and local ones alike will be able to abort out of
+those long lists.  I've also performed some more "efficientizing" on the code.
+Other than that, there isn't much to tell.
+
+     NOTE: The RESETDOM program now uses the CRT unit of Turbo Pascal v5.x and
+since it does, it can no longer be used as a chain from within WWIV if you have
+the system intercept the DOS calls.  It can still be run from DOS, and from the
+internal Shell to DOS (Not the //DOS command), or you can toggle the system to
+no longer intercept the DOS calls, but this makes the program not available for
+remote useage.  I don't know if any of you even have it set up in your chains
+area, but if you do, these are the guidelines for continued use, no remote and
+no DOS interception on the boards part, also no execution via the //DOS shell.
+
+     VIII(b). Notes for v1.41B
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+     There has always been a problem with building ships of certain tech levels
+and meeting the required tech level for that particular ship class dead on.
+Say you wanted to build cruisers, and computed the Tech production to get the
+right about of points to give you a 3.5 tech level.  You wouldn't be able to
+build the cruisers you wanted to - at least I never could.  I tried a great
+deal of different ways to try and fix this - but none would work until I made
+the "simplest" solution and that's to decrease the tech requirement by .1 for
+all the ship classes.  For some reason the code - which SHOULD work as written
+by Apoc - doesn't like to check reals for an equal status.  I tried it several
+different ways, and no go.  So, I altered the check routines to only check for
+a greater than status, and lowered the requirement by .1 and it now works like
+a champ.
+
+     Now it's time for me to look the part of an embarrassed programmer...  In
+a previous edition, I THOUGHT I had fixed the annomoly fleet when attempting to
+retake a players homeworld.  Well, I did, but I also fixed it so that he/she
+could NEVER retake it!  So, I appoligize to everyone out there for this grave
+error.  It has been properly corrected by instituting a temporary variable to
+hold the squadron's owner value (which is incremented by 30 to keep the old
+problem from resurfacing) and it appears to work fine - now.
+
+     One last thing that is of major importance, the routine that keeps the
+player from building more than the integer limit (32767) in any one ship type,
+was not working, and I finally tracked down the source of the problem and
+corrected it.  The routine was working with all integers, and when one integer
+is added to another, the result is an integer, and when adding two values that
+would total greater than 32767, the integer result would either be in the very
+low negatives, or just plain smaller than 32767.  So, the How_Many variable was
+redefined as a real, and the old temp variable that had been added to correct a
+price problem was removed.  So, now there are no more bugs in the game for
+anyone to fuss over...at least I don't think there are anymore...
+
+     VIII(c). Notes on Versions 1.40A - 1.41A
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Greetings once again (at least this is once again for those that have
+seen the previous release v1.40A).  The information that follows pertains to
+all enhancements/fixes that I have installed into the code from v1.40A through
+this present release.  I don't have exact revision numbers for each
+addition/change, but I imagine that's not an important issue.  Apocalypse has
+released v1.41 to clear up a problem with a "ghost fleet" or "anomoly fleet"
+that has been appearing in the games.  His fix didn't correct the problem, but
+it does take care to insure that squadron data file is properly zeroed out.
+So, even though I was still assigning a letter suffix to the v1.40 release
+number, and was up to v1.40F, I've upgraded to the v1.41 release number and
+started the letter suffix from "A" once more.  Enough of my ramblings, on to
+the information that actually does concern the problem that was fixed as well
+as the other changes that have been added...
+
+     In the Maintenance routines, for the fight routine, there is a check for
+the winner of the engagement.  If the winner was the planet the fleet was
+targetting, then the owner of that fleet would recieve a message that his/her
+fleet was destroyed.  No problems here.  If the fleet that was sent won, the
+owner would recive notification that he/she had captured the planet and the
+ex-owner of the planet would recieve word that the planet had been taken.
+Again, no problems here.  The trouble arrises when the owner of the fleet is
+attacking to regain his/her homeworld.  The identifier numbers are identical (I
+see that light in your eyes, you see the problem now too, don't you.) and the
+fleet could lose the battle, but the player would still take the planet.  The
+check is compared to this identifier.  Example, player 1 attacks to re-take
+planet 1 with (let's make this a GOOD example) 1 frigate.  Planet 1 is defended
+by (shall we make this really good?) 20,000 Super Dreadnaughts.  That poor
+frigate stands no chance of being able to win, and it doesn't.  It gets
+scrapped.  Player 1 is notified of the loss, and the second check is made,
+comparing the winner variable to the identifier.  Since planet 1 and player 1
+are identified with a "1", player 1 loses AND wins the combat.  Planet 1 is now
+his/hers again.  To correct this, I zeroed out the winner variable in the first
+check at the end, so that it would be 0 and no longer cause a problem.  This
+could probably be done by altering the two routines to become one routine
+(If/Then/Else) and go from there.  I may try that out to see if speeds up
+things or causes a hamper, but for now, the zeroing of the variable takes care
+of the job quite nicely.
+
+     There are numerous areas in the code where I've taken out multiple loops
+and combined code to streamline the routines.  These streamlineing changes have
+been installed mainly in the maintenace routines to enable the code to run a
+little more smoothly and (hopefully) faster.
+
+     I added a habitibility rating display into the Naval Status screen so that
+you could easily see where your fleet defense strength was located, and to
+enable you to better plan the defensive building of additional ships.
+
+     I added a display for the remaining Counter Intelligence moves remaining
+in the CI routines.  It was a little annoying to become involved in spying and
+run out when you still wanted to look at a couple more things.  This way you
+now know how may are remaining, and can spy on the more important things when
+you begin to run low.
+
+     I modified the map display routines so that they now utilize the
+COMMON.PAS Printfile routine.  This enables the player to display the file and
+pause it with the WWIV standard pause ("P"), and to abort the display and not
+be thrown into another part of the program.
+
+     I enhanced the Planet Zoom Display to enable a keypress check to abort the
+display of the planets owned.  This helps out a great deal when you have a
+large amount of planets and only want to check on a few.
+
+     In the NAVY move routines, the player is prompted for how many ships to
+send, there was no check for any type of negative input.  This has been
+corrected now.  Players could SEND negative fleets, and since a negative
+subtracted from 0 (or any positive value) gives a positive result, the fleets
+on the planets were growing very rapidly!  This single oversight had a very
+detrimental effect on the data files - it would lock up the game at maintenance
+time.  Not too pretty.
+
+     Once more in the NAVY routines, the calculation for the ship costs
+involved a REAL, a BYTE and an INTEGER, with the BYTE and INTEGER being
+multiplied against one another.  This would not yield the expected real value
+that was expected, instead it produced an INTEGER value and would flip at the
+integer limit.  This caused the fleets that were being bought to be 'sold',
+'built', whatever, at a greatly reduced value.  Imagine being able to build
+Superdreadnoughts at about 2.6 points apiece!  Granted, you'd have to be 'rich'
+enough to have the points to attempt the building of the 9999 ships to create
+the integer flip, but once there, you'd be able to increase your fleets
+DRASTICALLY!  I inserted a temporary REAL variable to cover these calculations
+and all it fine with the universe again...
+
+     The INTMUCH variable in the planet industrial increase routine would
+suffer an integer overflow if too great a value was entered and crash the
+program.  I changed it to a real variable from the integer setting it was
+defined as.
+
+     In the save_all routine, the date is re-called and saved this to the file
+set, even though the player may have entered at 11:59 pm, and the new date
+would be the next day when the player was finished playing.  Maintenance
+wouldn't run in this event.  I deleted the call for the date in that routine,
+and made the Date_now variable a global so to allow the initial reading be the
+same value that is written to disk...so far no problems with the maintenance
+routine not being run...
+
+     In the maintenance routines for production, I added parenthesis to the
+percentage calculation that the player had for Tech and Ind, the other way
+(without the parenthesis) the amount produced for both were lower than they
+should have been.  I also added the square root function (sqrt) to the
+calculation to make the formula in the documentation the same as what is used
+in the game.
+
+     In the OVERLAY3.DOM file, you have a function, RoundOff, I deleted
+all the fancy string manipulation and insert the FRAC function, you'll get a
+true roundoff for the calculations that utilize the roundoff function you've
+created.  I deleted the first three lines of the procedure, the string[12]
+variable, and then inserted P := FRAC(RON); and went from there...works like a
+champ!
+
+     I've also altered the St function to remove the call to the Pad routine,
+and inserted StA:=StA - frac(StA) to eliminate that bothersome single unit of
+tech or industry that would creep into play.
+
+     I've also removed all references the Pad and Back_Pad routines, and
+substituted my own string padding routines; Addfront and Addrear.  These allow
+the programmer to follow the code a little better, and it also affords the
+displays to be created a little cleaner and more uniform.
+
+     I've added a display for the percent habitability in the planet Zoom
+display for the planets.  Also added a call to the Planet Status display in the
+Naval Routines, as this is a more useful place for it.  It's still in use in
+the Planet Routines, though.
+
+     There's also a display for the "Fleets in Flight" that shows the Target
+Planet, Warp Factor, Distance to Target, and the number of each type ship.  The
+routine also totals all the types in flight to show you at a glance how many
+ships you have flinging to the far reaches of the galaxy.
+
+     That wraps up the features and changes in this version of this very
+exciting game.  I would like to thank the Author for distributing the source
+with this game so that others, such as myself, can dabble with it and make the
+sum total a better product.  I would also like to thank the gamers of my
+system, since I wouldn't have been able to track most of these bugs down
+without them.  Especially one of my users, Mysterion.  He seems to find
+EVERYTHING that has been overlooked in the coding.
+
+                              Tarl Cabot
+                           Sysop of Ko Ro Ba
+                             (813)237-0152
+                               Node 8350
+                               Tampa, Fl.
