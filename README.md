@@ -1,23 +1,20 @@
-# Dominion
-Source code to old Turbo Pascal BBS door game. This version (1.60) is the one I modified back in 1991 to add greater strategy and realism to the game - at the time I went by the user name "The Doctor" (after Dr. Who, of course). Remember, this is an old program meant to run under a WWIV BBS and DOS. Total memory used was about 110k RAM.
+# Dominions!
+Source code to old Turbo Pascal BBS door game which was run from a WWIV BBS. 
 
 ## Sharing Dominions
-As per the SYSOP.DOC file
+[See the LICENSE.md file for sharing restrictions](LICENSE.md)
 
-You are free to copy and distrubite Dominions and it's subprograms
-as long as the following conditions are met...
+## Genre
+This game is of the "4 X" genre: eXplore, eXpand, eXploit, and eXterminate. In this case, you control planetary populations which produce resources for you. Using those resources, you build fleets of ships to explore other planets, colonize, build more resources, and attack your neighbors.
 
-     1) No fee or purchase cost is charged.
+## Version 1.60 history
+This version (1.60) is the one I modified back in 1991 to add greater strategy and realism to the game - at the time I went by the user name "The Doctor" (after Dr. Who, of course). Remember, this is an old program meant to run under a WWIV BBS and DOS. Total memory used was about 110k RAM. This is a strategy game: Users would log onto the BBS one at a time, make their moves, then log off. At midnight, all the moves would be resolved. No no, not real time; in fact games might take a month or two to complete.
 
-     2) Any modifications made are noted in the Sysopdoc.Dom file by the
-        person making the modifications with the date and nature of the
-        modifications.
-
-     3) All programs listed in Section IV are included in the archive.
-
-VI. Legal Stuff
-~~~~~~~~~~~~~~~
-The author of Dominions! assumes no responsibilty for any failure of
-the program (or subprograms) to perform in the indicated or expressed way,
-and/or any damage caused by the failure of the program.  Use Dominons!
-at your own risk!
+### Enhancements I added
+1. Planetary populations
+2. Ship crew
+3. Ability to move populations from planet to planet
+4. Re-added scanners in the form of radars to see advancing fleets
+5. More realistic positioning of fleets in real-space as they travelled. Interception of fleets before they entered range of a planet became possible
+5. Warp gates!
+6. Long-range warp missiles which could remotely bombard a planet!
