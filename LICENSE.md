@@ -1,7 +1,7 @@
 ## Sharing Dominions
 As per the SYSOPDOC.DOM file
 
-You are free to copy and distrubite Dominions and it's subprograms
+You are free to copy and distribute Dominions and it's subprograms
 as long as the following conditions are met...
 
      1) No fee or purchase cost is charged.
