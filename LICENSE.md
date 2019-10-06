@@ -1,7 +1,6 @@
-As per the SYSOPDOC.DOM file:
+## Sharing Dominions
+As per the SYSOP.DOC file
 
-V. Sharing Dominions!
-~~~~~~~~~~~~~~~~~~~~~
 You are free to copy and distrubite Dominions and it's subprograms
 as long as the following conditions are met...
 
