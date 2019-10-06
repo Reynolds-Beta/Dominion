@@ -1,0 +1,67 @@
+
+Planet Help
+~~~~~~~~~~~
+Set Manpower Allocations for [A]ll
+   Planets : Lets you change the
+   percentage of workers in Industry
+   and Technology for ALL planets with
+   just one command.
+
+[C]hange the Name of a Planet : Changes
+   the name of a planet of your choice,
+   as long as you own it.
+
+[D]ecrease Industrial Level of a Planet:
+   Retrieve most of a player's industry
+   units put into raising a planet's
+   industrial level.  Great for those
+   emergency situations!
+
+[E]nhanced Local Planetary Scan:  Scans an
+   area of space with your radar and gives
+   information about the planets nearby.
+
+Increase [I]ndustry Level of a Planet :
+   Spends Industry Units to increase
+   the Industry Level of any planet you
+   own.
+
+[B]uild Warpgate:  If your Empire's Tech.
+   Level is high enough, you may install
+   a warpgate device on your planet, which
+   allows you to transport squadrons from
+   that planet, to any other of your planets
+   with a warpgate (assuming they are in
+   range [See Navy Help].)  The costs are
+   in TECHNOLOGY units, and are as follows:
+   
+   Type                 Lev.  Cost   Percent  Range
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Low-Power Warpgate   6.0    100     30%    10 Ly
+   High-Power Warpfield 12.0   200     45%    20 Ly
+   Trans-Warpgate       24.0   400     55%    40 Ly
+
+   The Percent reflects the minimum planetary
+   worker allocation in TECHNOLOGY needed to keep
+   the Warpgate operational.  The technology units
+   produced by this minimum are NOT added to your
+   Empire's total after each maintenance period.
+   Once installed, the scientists WILL NOT allow
+   it to be removed.  The range of a Warpgate is
+   in Lightyears.
+
+[L]ist Planets : Lists all 200 planets,
+   their names, and owners.  You can
+   also list the planets by Empire.
+
+Change [M]anpower Allocation for a
+   Planet : Sets the percentage of
+   workers in Industry and Technology
+   for a planet you choose (again, you
+   must own the planet).
+
+[S]tatus of a Planet : Shows the stats
+   of one of your planets.
+
+[Z]oom View Planets : A list of all
+   your planets plus a few key stats.

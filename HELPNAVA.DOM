@@ -1,0 +1,122 @@
+
+Naval Help
+~~~~~~~~~~
+[B]uild New Ships : Spends Industrial
+   Units to build the ships of your
+   choice (assuming you have the needed
+   Technology level).  Ships must be
+   supplied with at least a skeleton crew
+   in order to defend a planet.  Here
+   is the breakdown for each ship...
+   
+    FR   DS   CR   BS   DN   SDN
+   -------------------------------
+    13   38  113  338  1013  3038 
+
+   ...this repesents only 25% of the
+   crew needed for interplanetary
+   travels.
+
+[C]ompute Distance Between Planets :
+   Computes the distance (in light
+   years) between two planets.
+
+[F]leets in Flight : Displays the
+   current status of all fleets still
+   enroute to their targets.
+
+[I]nstall Radar : Equips a planet with
+   a radar installation for tracking
+   squadrons and scanning other planets.
+   Three types exist:
+
+     Type            Tech    Range
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Short Range     5.0     4 LY
+     Mid Range      12.0     7 LY
+     Long Range     20.0    13 LY
+
+[P]lanetary Status : Displays the stats
+   for a single planet.  Identical to
+   the Status of Planet in the Planets
+   Menu.
+
+[M]ove Ships : Moves ships from one
+   planet to another.  If you own the
+   destination planet the ships will
+   arrive as reinforcements.  If you
+   do not own the planet, your ships
+   will engage in combat with the
+   defenses of the target planet.
+   It is important to note that moving
+   ships require a full crew for each
+   one.  The breakdown is as follows...
+
+     FR   DS   CR   BS   DN   SDN
+    -------------------------------
+     50  150  450  1350 4050 12150
+
+   STEALTH technology is available to
+   a squadron if there are enough INDUSTRY
+   units to cover the re-fit costs.  (Half
+   the total cost of building the squadron.)
+
+   The effectivness of the STEALTH re-fit
+   is based on the average of each ship...
+
+    Ship            Effectivness
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Frigate              85%
+    Destroyer            80%
+    Cruiser              70%
+    Battleship           60%
+    Dreadnought          50%
+    S.Dreadnought        35%
+
+   STEALTH also gives an attacking squadron a
+   15% advantage in its attack strength if un-
+   detected by a defending fleet, when it gets
+   to its destination.
+
+   WARPGATE technology is a new method for
+   flipping a squadron instantly across the
+   staggeringly large distances in space.  Only
+   skeleton crews are necessary to control the
+   transition.  Use is simple:  Anytime you wish
+   to move between planets with warpgates, enter
+   from and destination planets as normal.  You
+   may only move to your own planets due to a
+   saftey filter which keeps you out of other
+   empires planets, but also keeps them out of
+   yours.  The ranges on the different types of
+   warpgates are as follows:
+
+   Type                Max. Range
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Warpgate               10 L.y.
+   Improved Warpgate      20 L.y.
+   Transwarp gate         40 L.y.
+
+   WARNING:  As the technology is new, there are apt
+   to be calculation errors.  While the scientists
+   who developed it swear the odds of anything serious
+   happening to a warping squad are nil, there have
+   been unconfirmed instances of missing or deformed
+   ships.  Also note that BOTH planets need to have a
+   warpgate installed, but only the sender's range is
+   important.
+
+[S]tatus of the Navy : Shows how many
+   ships you have and where they are.
+   Indicators next to the planet number
+   also tell if there is a Warpgate and/
+   or a Radar installed on the planet.
+
+[E]xamine Radars : Shows what squads
+   are in the approximate circular
+   range of planets having radar.
+   
+[R]edirect Squadrons : Allows course
+   and speed changes of squadrons.  Just
+   enter the squadron's number to edit
+   it.

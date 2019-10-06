@@ -1,0 +1,62 @@
+CONST
+     Esc = '#27';
+     AllOff = Esc + '[0';
+     Bold = Esc + '[1';
+     Underline = Esc + '[4';
+     Blink = Esc + '[5';
+     BlackF = Esc + '[30';
+     RedF = Esc + '[31';
+     GreenF = Esc + '[32';
+     YellowF = Esc + '[33';
+     BlueF = Esc + '[34';
+     Magenta = Esc + '[35';
+     Cyan = Esc + '[36';
+     White = Esc + '[37';
+     BlackB = Esc + '[40';
+     RedB = Esc + '[41';
+     GreenB = Esc + '[42';
+     YellowB = Esc + '[43';
+     BlueB = Esc + '[44';
+     MagentaB = Esc + '[45';
+     CyanB = Esc + '[46';
+     WhiteB =  Esc + '[47';
+
+procedure print(b:string);
+Begin
+	WriteLn(b);
+End;
+
+procedure prompt(b:string);
+Begin
+	Write(b);
+End;
+
+procedure ansic(i:integer);
+Begin
+	{ nothing here }
+End;
+
+procedure Onek (Var OneChar:Char; validChars:string);
+
+VAR
+	tempChar: Char;
+
+Begin
+
+	tempChar := READKEY;
+	if (POS('' + tempChar, validChars) > 0) then
+		OneChar := tempChar
+	else
+		OneChar := ' ';
+End;
+
+procedure cls;
+begin
+     { Nothing }
+end;
+
+procedure nl;
+begin
+     WriteLn;
+end;
+

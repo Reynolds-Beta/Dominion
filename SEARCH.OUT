@@ -1,0 +1,4 @@
+---- usernum Matches (3) ----
+Dom1.pas:		User_Number := UserNum;
+Dominion.pas:		if (Empire[LoopLI].User_Number = UserNum) and
+Dominion.pas:		val(paramstr(2),usernum,eq);
