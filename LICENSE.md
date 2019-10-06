@@ -1,5 +1,5 @@
 ## Sharing Dominions
-As per the SYSOP.DOC file
+As per the SYSOPDOC.DOM file
 
 You are free to copy and distrubite Dominions and it's subprograms
 as long as the following conditions are met...
@@ -12,8 +12,7 @@ as long as the following conditions are met...
 
      3) All programs listed in Section IV are included in the archive.
 
-VI. Legal Stuff
-~~~~~~~~~~~~~~~
+## Legal Stuff
 The author of Dominions! assumes no responsibilty for any failure of
 the program (or subprograms) to perform in the indicated or expressed way,
 and/or any damage caused by the failure of the program.  Use Dominons!
