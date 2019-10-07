@@ -18,3 +18,8 @@ This version is the one I modified back in 1991 to add greater strategy and real
 5. More realistic positioning of fleets in real-space as they travelled. Interception of fleets before they entered range of a planet became possible
 5. Warp gates!
 6. Long-range warp missiles which could remotely bombard a planet!
+
+## Future Plans
+The intention is to recreate this as a modern web-based, massively multiplayer strategy game making use of Azure functionality for the backend API and logic (perhaps Azure Functions as REST calls or similar). Actual client design is to be determined, as I am not a great web designer/coder and my graphic/art skills are rudimentary at best.
+
+Has this been done before? Sure. So what? I've wanted to recreate what I contributed to for a long time. While the concept won't be new, I'm hoping the actual game play will feel fresh enough.
